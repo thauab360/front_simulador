@@ -37,7 +37,7 @@ const LoginScreen = () => {
               <i className="login__icon fas fa-lock"></i>
               <input type="password" className="login__input" placeholder="Senha" />
             </div>
-            <Link to="/simulation">
+            <Link to="/Dashboard">
               <button className="button login__submit" onClick={handleLogin} disabled={loading}>
                 <span className="button__text">{loading ? 'Carregando...' : 'ENTRAR'}</span>
                 <i className="button__icon fas fa-chevron-right"></i>
