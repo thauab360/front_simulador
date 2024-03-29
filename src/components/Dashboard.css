@@ -1,0 +1,41 @@
+/* Estilo dos campos de filtro de data */
+.date-filter {
+  margin-bottom: 20px;
+}
+
+/* Estilo dos rótulos dos campos de filtro */
+.date-filter-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Estilo dos campos de entrada de data */
+.date-filter-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilo do botão de filtro */
+.filter-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Estilo do botão de filtro quando está em foco */
+.filter-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+}
+
+/* Estilo do botão de filtro quando está em hover */
+.filter-button:hover {
+  background-color: #218838;
+}
