@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './LoginScreen.css'
 import LogoSCC from './Assets/logoSCC.png'
-import { Link } from '@material-ui/core';
+import { Link } from '@mui/material';
 
 const LoginScreen = () => {
   const [username] = useState('');

@@ -1,41 +1,35 @@
-/* Estilo dos campos de filtro de data */
-.date-filter {
-  margin-bottom: 20px;
+.main-container h1 {
+  color: #333; 
+  margin-bottom: 20px; 
 }
 
-/* Estilo dos rótulos dos campos de filtro */
-.date-filter-label {
-  font-size: 16px;
+.main-container .date-filter label {
+  display: inline-block; 
+  margin:10px  10px 10px 10px; 
+  font-size: 12px;
   font-weight: bold;
-  margin-right: 10px;
+  
 }
 
-/* Estilo dos campos de entrada de data */
-.date-filter-input {
-  padding: 8px;
+.main-container .date-filter input {
+  padding: 5px;
+  margin-bottom: 10px; 
   border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
+  border-radius: 10px;
+  font-size: 10px;
 }
 
-/* Estilo do botão de filtro */
-.filter-button {
+.main-container button {
   padding: 10px 20px;
-  background-color: #28a745;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
+  margin-left: 30px; 
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
 }
 
-/* Estilo do botão de filtro quando está em foco */
-.filter-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
-}
-
-/* Estilo do botão de filtro quando está em hover */
-.filter-button:hover {
-  background-color: #218838;
+.main-container button:hover {
+  background-color: #0056b3;
 }

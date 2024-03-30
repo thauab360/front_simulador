@@ -1,4 +1,4 @@
-.simulation-container {
+.main-container {
   max-width: 600px;
   margin: 1% auto;
   padding: 30px;
@@ -19,7 +19,7 @@ h2 {
   margin-bottom: 5px;
 }
 
-.form-group input[type="text"] {
+.form-group textfield {
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
@@ -76,5 +76,3 @@ h2 {
 .button-group button {
   margin: 0 0 0px 20px;
 }
-
-/* Criar uma classe nova drop down */

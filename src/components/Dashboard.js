@@ -46,21 +46,23 @@ const Dashboard = () => {
   };
 
   const handleSavePDF = (form) => {
-    // Lógica para salvar o formulário em PDF
+    
   };
 
   return (
-    <div className="dashboard-container">
-      <h1>Histórico de simulações</h1>
-      <div className="form-group">
+    <div class="main-container">
+      <h1>Minhas simulações</h1>
+      
+      <div class="date-filter">
         <label>Data Inicial:</label>
-        <input type="date" value={filterStartDate} onChange={handleFilterStartDateChange} />
-      </div>
-      <div className="form-group">
+        <input type="date" value="{filterStartDate}" onChange="{handleFilterStartDateChange}" />
+        
         <label>Data Final:</label>
-        <input type="date" value={filterEndDate} onChange={handleFilterEndDateChange} />
+        <input type="date" value="{filterEndDate}" onChange="{handleFilterEndDateChange}" />
+
+        <button onclick="handleFilterClick()">Filtrar</button>
       </div>
-      <h2>Resumo:</h2>
+   
       <ul>
         {filteredForms.map(form => (
           <li key={form.id}>
@@ -72,8 +74,7 @@ const Dashboard = () => {
               <p><strong>Quantidade de Dependentes:</strong> {form.dependents.length}</p>
               <p><strong>Subtotal:</strong> R$ {calculateSubtotal(form)}</p>
             </div>
-            {/* Botão para salvar em PDF */}
-            <button onClick={() => handleSavePDF(form)}>Salvar em PDF</button>
+
           </li>
         ))}
       </ul>
